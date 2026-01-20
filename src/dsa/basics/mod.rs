@@ -59,4 +59,14 @@ pub fn square_num_pattern(n: u16) {
         println!();
     }
 }
+pub fn square_num_pattern_2(n: u16) {
+    let mut num: u16 = 1;
+    for i in 1..=n {
+        for j in 1..=n {
+            print!("{}", num);
+            num += 1;
+        }
+        println!();
+    }
+}
 pub fn triangle_pattern(n: u16) {}

@@ -23,5 +23,8 @@ fn main() {
     // basics::square_pattern(3);
 
     // Print a Square Num Pattern.
-    basics::square_num_pattern(4);
+    // basics::square_num_pattern(4);
+
+    // Print a Square Num Pattern.
+    basics::square_num_pattern_2(3);
 }
