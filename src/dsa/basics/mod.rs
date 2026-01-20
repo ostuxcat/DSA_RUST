@@ -7,3 +7,10 @@ pub fn find_char_case(ch: char) -> String {
         return "Invalid Character!".to_string();
     }
 }
+pub fn while_loop_numbers(n: u16) {
+    let mut count: u16 = 1;
+    while count <= n {
+        println!("{}", count);
+        count += 1;
+    }
+}

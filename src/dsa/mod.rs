@@ -1,1 +1,1 @@
-pub mod find_char_case;
+pub mod basics;
