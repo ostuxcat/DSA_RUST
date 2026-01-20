@@ -35,3 +35,11 @@ pub fn sum_odd_n(n: u16) -> u16 {
     }
     return sum;
 }
+pub fn check_prime_num(n: u16) -> bool {
+    for i in 2..n {
+        if n % i == 0 {
+            return false;
+        }
+    }
+    return true;
+}

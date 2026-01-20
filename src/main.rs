@@ -14,5 +14,8 @@ fn main() {
     // println!("{}", basics::sum_n(5));
     //
     // Sum of all Odd numbers from 1 to n.
-    println!("{}", basics::sum_odd_n(10));
+    // println!("{}", basics::sum_odd_n(10));
+    //
+    // Check if a number is prime or not.
+    println!("{}", basics::check_prime_num(8));
 }
