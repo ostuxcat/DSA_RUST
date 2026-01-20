@@ -85,3 +85,11 @@ pub fn triangle_num_pattern(n: u16) {
         println!();
     }
 }
+pub fn triangle_num_pattern_2(n: u16) {
+    for i in 1..=n {
+        for j in 1..=i {
+            print!("{j}");
+        }
+        println!();
+    }
+}

@@ -32,5 +32,8 @@ fn main() {
     // basics::triangle_pattern(4);
 
     // Print a Triangle Num Pattern.
-    basics::triangle_num_pattern(4);
+    // basics::triangle_num_pattern(4);
+
+    // Print a Triangle Num Pattern.
+    basics::triangle_num_pattern_2(4);
 }
