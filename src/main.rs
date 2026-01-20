@@ -1,3 +1,4 @@
+#![allow(dead_code, unused)]
 mod dsa;
 use dsa::*;
 fn main() {
@@ -35,5 +36,9 @@ fn main() {
     // basics::triangle_num_pattern(4);
 
     // Print a Triangle Num Pattern.
-    basics::triangle_num_pattern_2(4);
+    // basics::triangle_num_pattern_2(4);
+
+    // Problem No. 136 Leet Code.
+    let vec = vec![4, 1, 2, 1, 2];
+    println!("{}", leetcode::problem_136(vec));
 }
