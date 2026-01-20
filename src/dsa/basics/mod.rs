@@ -19,3 +19,10 @@ pub fn for_loop_numbers(n: u16) {
         println!("{}", count);
     }
 }
+pub fn sum_n(n: u16) -> u16 {
+    let mut sum: u16 = 0;
+    for i in 1..=n {
+        sum += i;
+    }
+    return sum;
+}

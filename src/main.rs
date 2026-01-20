@@ -8,5 +8,8 @@ fn main() {
     // basics::while_loop_numbers(5);
     //
     // Print 1 to 5 numbers using For Loop.
-    basics::for_loop_numbers(5);
+    // basics::for_loop_numbers(5);
+    //
+    // Print the sum of 1 to n using For Loop.
+    println!("{}", basics::sum_n(5));
 }
