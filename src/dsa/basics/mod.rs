@@ -43,3 +43,11 @@ pub fn check_prime_num(n: u16) -> bool {
     }
     return true;
 }
+pub fn square_pattern(n: u16) {
+    for i in 1..=n {
+        for j in 1..=n {
+            print!("*");
+        }
+        println!("*");
+    }
+}
