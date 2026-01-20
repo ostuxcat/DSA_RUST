@@ -39,6 +39,9 @@ fn main() {
     // basics::triangle_num_pattern_2(4);
 
     // Problem No. 136 Leet Code.
-    let vec = vec![4, 1, 2, 1, 2];
-    println!("{}", leetcode::problem_136(vec));
+    // let vec = vec![4, 1, 2, 1, 2];
+    // println!("{}", leetcode::problem_136(vec));
+
+    // Problem No. 509 Leet Code.
+    println!("{}", leetcode::problem_509(4));
 }

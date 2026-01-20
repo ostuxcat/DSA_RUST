@@ -5,3 +5,9 @@ pub fn problem_136(nums: Vec<i32>) -> i32 {
     }
     return ans;
 }
+pub fn problem_509(n: i32) -> i32 {
+    if (n == 0 || n == 1) {
+        return n;
+    }
+    return problem_509(n - 1) + problem_509(n - 2);
+}
