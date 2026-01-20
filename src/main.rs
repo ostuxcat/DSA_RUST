@@ -20,5 +20,8 @@ fn main() {
     // println!("{}", basics::check_prime_num(8));
 
     // Print a Sqaure * Pattern.
-    basics::square_pattern(3);
+    // basics::square_pattern(3);
+
+    // Print a Square Num Pattern.
+    basics::square_num_pattern(4);
 }
