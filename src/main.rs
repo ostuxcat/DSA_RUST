@@ -26,5 +26,8 @@ fn main() {
     // basics::square_num_pattern(4);
 
     // Print a Square Num Pattern.
-    basics::square_num_pattern_2(3);
+    // basics::square_num_pattern_2(3);
+
+    // Print a Triangle * Pattern.
+    basics::triangle_pattern(4);
 }
