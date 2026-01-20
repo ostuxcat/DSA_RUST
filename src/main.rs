@@ -5,5 +5,8 @@ fn main() {
     // println!("{}", basics::find_char_case('b'));
     //
     // Print 1 to 5 numbers using While Loop.
-    basics::while_loop_numbers(5);
+    // basics::while_loop_numbers(5);
+    //
+    // Print 1 to 5 numbers using For Loop.
+    basics::for_loop_numbers(5);
 }

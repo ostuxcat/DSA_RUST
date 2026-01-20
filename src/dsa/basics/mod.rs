@@ -14,3 +14,8 @@ pub fn while_loop_numbers(n: u16) {
         count += 1;
     }
 }
+pub fn for_loop_numbers(n: u16) {
+    for count in 1..=n {
+        println!("{}", count);
+    }
+}
