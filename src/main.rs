@@ -10,6 +10,9 @@ fn main() {
     // Print 1 to 5 numbers using For Loop.
     // basics::for_loop_numbers(5);
     //
-    // Print the sum of 1 to n using For Loop.
-    println!("{}", basics::sum_n(5));
+    // Find the sum of 1 to n using For Loop.
+    // println!("{}", basics::sum_n(5));
+    //
+    // Sum of all Odd numbers from 1 to n.
+    println!("{}", basics::sum_odd_n(10));
 }
