@@ -8,6 +8,7 @@ pub fn problem_136(nums: Vec<i32>) -> i32 {
 pub fn problem_509(n: i32) -> i32 {
     match n {
         0 | 1 => return n,
+        2 => return 1,
         _ => return problem_509(n - 1) + problem_509(n - 2),
     }
 }
